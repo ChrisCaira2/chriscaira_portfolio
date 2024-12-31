@@ -1,6 +1,6 @@
 const header = {
     // all the properties are optional - can be left empty or deleted
-    homepage: 'https://github.com/ChrisCaira2/chriscaira_portfolio',
+    homepage: 'https://chriscaira2.github.io/chriscaira_portfolio/',
     title: 'CC.',
 }
 
@@ -10,7 +10,7 @@ const about = {
     role: 'Software Engineer',
     description:
         'Looking for Entry Level Software Engineer opportunites or Internships',
-    resume: 'https://drive.google.com/file/d/1GZlnwQA8lGjqRw_hoXCK32vWceUzFJcu/view',
+    resume: '/Users/chriscaira/chriscaira_portfolio/resume.png',
     social: {
         linkedin: 'https://www.linkedin.com/in/chris-caira-2ba4a31a9/',
         github: 'https://github.com/ChrisCaira2',
@@ -21,10 +21,11 @@ const projects = [
     // projects can be added an removed
     // if there are no projects, Projects section won't show up
     {
-        name: 'Addy',
+        name: 'Machine Learning Weather Forecaster',
         description:
-            'A React Native app that allows users to find events to host or find people to attend their events with a swipe interface.',
-        stack: ['React Native', 'Javascript', 'Firebase'],
+            'Web app that takes in historical weather data and provides weather predictions for a desired city.',
+        stack: ['Python', 'Javascript', 'React'],
+        sourceCode: 'https://github.com/ChrisCaira2/weather_predictor'
     },
     {
         name: 'Bet Track',
@@ -40,10 +41,10 @@ const projects = [
         stack: ['React', 'Javascript', 'MongoDB'],
     },
     {
-        name: 'Automated Finance Sheet',
+        name: 'Addy',
         description:
-            'Internship project where myself and a team of interns created an automated finance sheet which pulled directly from an API with all expenses for the company and formatted the companies budget into a Google Sheet.',
-        stack: ['Python'],
+            'A React Native app that allows users to find events to host or find people to attend their events with a swipe interface.',
+        stack: ['React Native', 'Javascript', 'Firebase'],
     },
     {
         name: 'Infinite Runner',
@@ -52,6 +53,12 @@ const projects = [
         stack: ['Python', 'Pygame'],
         sourceCode: 'https://github.com/ChrisCaira2/InfiniteRunner',
     },
+    {
+        name: 'Automated Finance Sheet',
+        description:
+            'Internship project where myself and a team of interns created an automated finance sheet which pulled directly from an API with all expenses for the company and formatted the companies budget into a Google Sheet.',
+        stack: ['Python'],
+    }
 ]
 
 const skills = [
