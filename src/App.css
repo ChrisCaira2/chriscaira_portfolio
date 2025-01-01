@@ -88,6 +88,18 @@ main {
   border-style: solid;
 }
 
+/* .btn {
+  display: block;
+  cursor: pointer;
+  padding: 0.8em 1.4em;
+  font-weight: 500;
+  font-size: 0.9rem;
+  text-transform: lowercase;
+  transition: transform 0.2s ease-in-out;
+  position: relative;
+} */
+
+
 .btn {
   display: block;
   cursor: pointer;
@@ -119,7 +131,7 @@ main {
   bottom: 0;
   left: 0;
   top: 0;
-  z-index: -1;
+  z-index: 1;
   transition: right 0.2s ease-in-out;
 }
 
