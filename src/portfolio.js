@@ -23,14 +23,14 @@ const projects = [
     {
         name: 'Machine Learning Weather Forecaster',
         description:
-            'Web app that takes in historical weather data and provides weather predictions for a desired city.',
+            'Web app that uses historical weather data and provides weather predictions for a desired city.',
         stack: ['Python', 'Javascript', 'React'],
         sourceCode: 'https://github.com/ChrisCaira2/weather_predictor'
     },
     {
         name: 'Bet Track',
         description:
-            'Web application that pulls in betting odds for NBA, MLB, NFL games and allows user to track their bets for the day.',
+            'Web app that pulls in betting odds for NBA, MLB, NFL games and allows user to track their bets for the day.',
         stack: ['Javascript', 'React', 'MongoDB'],
         sourceCode: 'https://github.com/ChrisCaira2/BetTrack',
     },
